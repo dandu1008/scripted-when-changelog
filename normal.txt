@@ -1,1 +1,1 @@
-some  text 3
+sometext 3
