@@ -27,7 +27,7 @@ node {
 	       break
 	}
 	
-	changeLogSets = null
+	changeLogSets = null // have to set it to null otherwise it would throw the searialization error.
 	
 	if (changeLogFound) {
 	    stage('changeLogFound') {
