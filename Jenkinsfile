@@ -13,6 +13,7 @@ node {
 	    println changeLogSets[i].getClass().getName()
 	    
 	    def entries = changeLogSets[i].items
+	    println "${entries}"
 	    for (j = 0; j < entries.length; j++) {
 	        def entry = entries[j]
 	        println "${entry}"
